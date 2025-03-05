@@ -2,8 +2,8 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: my-app
-  namespace: flux-system
+  name: rees
+  namespace: my-app
 spec:
   interval: 1m0s
   path: ./clusters/my-cluster/deploy

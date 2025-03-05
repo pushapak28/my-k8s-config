@@ -2,8 +2,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: my-app
-  namespace: flux-system
+  name: rees
+  namespace: my-app
 spec:
   interval: 1m0s
   ref:
