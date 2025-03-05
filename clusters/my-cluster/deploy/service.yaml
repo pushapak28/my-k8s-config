@@ -10,4 +10,4 @@ spec:
     - protocol: TCP
       port: 80    # The port you want to expose
       targetPort: 8080  # This should match the container's port
-  type: ClusterIP  # Change to NodePort or LoadBalancer if needed
+  type: NodePort  # Change to NodePort or LoadBalancer if needed
